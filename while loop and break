@@ -1,0 +1,17 @@
+#include<istream>
+using namespace std;
+int main()
+{
+  int a=1;
+  while(a<101)
+    {
+      int b;
+      cin>>b;
+      if(b==65)
+      {
+        cout<<"congrats you have guessed correct"<<endl;
+        break;
+      }
+      
+    }
+}
